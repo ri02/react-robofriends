@@ -3,9 +3,9 @@ import React from 'react';
 
 const SearchBox = ({searchField, searchChange}) => {
     return(
-    <div className='pa 2'>
+    <div className='pa2'>
       <input
-        className='pa 3 ba b--green bg-lightest-blue'
+        className='pa3 ba b--grey bg-lightest-blue'
         type='text'
         placeholder='Search the robots'
         onChange={searchChange} />
